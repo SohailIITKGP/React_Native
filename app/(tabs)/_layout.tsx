@@ -4,7 +4,7 @@ import { Ionicons } from '@expo/vector-icons';
 
 const TabRoot = () => {
   return (
-    <Tabs>
+    <Tabs initialRouteName='index'>
       <Tabs.Screen
         name="index"
         options={{
